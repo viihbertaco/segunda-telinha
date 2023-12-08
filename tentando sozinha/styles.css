@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap'); 
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+  
+  box-sizing: border-box;
+  color:#FFE4C4;
+  background-color:black
+
+}
+
+.titulodestaque{
+    color: #FF69B4;
+    font-size: 1.8rem;
+    font-family: 'krona one', sans-serif;
+}
+.subtitulo{
+    color:#FFC0CB;
+    font-family: 'krona one', sans-serif;
+    font-size: 0.9rem;
+    text-align: center;
+}
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+.navegacao{
+    display: flex;
+}
+.linkestilo{
+    font-family: 'krona one', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: left;
+    gap: 10px;
+}
+.principal{
+    padding: 5% 8%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 100px;
+}
+.somentetexto{
+    width: 50%;
+    display: flex;
+    flex-direction:column ;
+    gap: 40px;
+}
+.nome{
+    color:#FF1493;
+}
+.texto{
+    font-size: 1.9rem; 
+    font-family: 'Montserrat', sans-serif; 
+    text-align: justify; 
+}
+.divconf{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+.subtdiv{
+    font-family: 'Krona One', sans-serif; 
+    font-weight: 400; 
+    font-size: 1.5rem;
+}
+.botao1{
+    width: 50%;
+    border-radius: 5px;
+    border: 5px double #f753a5;
+    font-size: 0.9rem;
+    font-weight: 200;
+    padding: 10px 0;
+    text-decoration: none;
+    color:aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.botao2{
+    width: 50%;
+    border-radius: 5px;
+    border: 4px dotted #f753a5;
+    font-size: 0.9rem;
+    font-weight: 200;
+    padding: 10px 0;
+    text-decoration: none;
+    color:aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.botao1:hover {
+    background-color: #272727;
+}
+.botao2:hover{
+    background-color: #272727;
+}
+.rodape{
+    font-family: 'Krona One', sans-serif; 
+    color:rgb(17, 13, 13); 
+    background-color:#FFC0CB ;  
+    padding: 8px;  
+    text-align:left; 
+   font-size: 0.6rem; 
+}
+.img{
+    width:50% ;
+}
+@media (max-width:800px){
+    .apresentacao { 
+        flex-direction:column-reverse; 
+        padding: 5%; 
+    } 
+    .cabecalho{ 
+        padding: 10%; 
+    } 
+    .navegacao{ 
+
+        justify-content:center ; 
+    } 
+    .somentetexto{ 
+        width: auto; 
+    } 
+    .subtitulo{
+        text-align:justify;
+    }
+}
